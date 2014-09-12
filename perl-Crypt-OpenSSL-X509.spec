@@ -52,6 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TODO
 %{perl_vendorarch}/Crypt/OpenSSL/*.pm
 %dir %{perl_vendorarch}/auto/Crypt/OpenSSL/X509
-%{perl_vendorarch}/auto/Crypt/OpenSSL/X509/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/OpenSSL/X509/*.so
 %{_mandir}/man3/*
