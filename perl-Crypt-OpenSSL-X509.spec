@@ -2,17 +2,17 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 
-%define	pdir	Crypt
-%define	pnam	OpenSSL-X509
+%define		pdir	Crypt
+%define		pnam	OpenSSL-X509
 %include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::OpenSSL::X509 - Perl extension to OpenSSL's X509 API
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.804
+Version:	1.806
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a3f019e91531f53a389f80fdcb656786
+# Source0-md5:	57dd7b8cc5204ef908e7837cc4a326a6
 URL:		http://search.cpan.org/dist/Crypt-OpenSSL-X509/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
