@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	OpenSSL-X509
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::OpenSSL::X509 - Perl extension to OpenSSL's X509 API
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.811
